@@ -18,3 +18,6 @@ Using the number of occurrences of root features from 100 Decision Trees iterati
 
 ## Conclusion
 Basic logistic regression performs very well.  After improvement, Decision Trees performed the best in terms of training time, train accuracy and test accuracy.
+
+## Link to Jupyter Notebook
+https://github.com/kg5hqx/Classifiers/blob/master/prompt_III.ipynb
