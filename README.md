@@ -13,5 +13,8 @@ The dataset contains information from 17 campaigns between May 2008 and November
 6. I improved KNN training time and accuracy by a fraction relative to logistic regression. However, the test accuracy did not exceed the basic logistic regression.
 7. Improved Decision Trees and Improved SVC achieved the same test accuracy as the basic logistic regression.  Improved decision trees had better training time than the basic logistic regression.
 
+## Feature Importance
+Using the number of occurrences of root features from 100 Decision Trees iterations, I found that the most important features are customer age followed by those that own their housing.  I also found many root features with an unknown loan status. This indicates that visibility to loan information may provide better predictions.
+
 ## Conclusion
 Basic logistic regression performs very well.  After improvement, Decision Trees performed the best in terms of training time, train accuracy and test accuracy.
